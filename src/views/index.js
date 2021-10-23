@@ -81,7 +81,7 @@ const Index = () => {
               sx={{ mx: 2, width: 250 }}
               variant="contained"
               color="primary"
-              href="mailto:dsc.pce@poornima.org"
+              href="mailto:gdscmpstme.shirpur@gmail.com"
             >
               <SupervisedUserCircle />
               <Typography gutterBottom variant="button">
