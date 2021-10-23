@@ -10,7 +10,7 @@ export default function ButtonAppBar() {
       <Toolbar>
         <Avatar src="https://pbs.twimg.com/profile_images/1173471139911221248/mZFiQFW6_400x400.jpg" />
         <Typography variant="h6" component="div" sx={{ flexGrow: 0, ml: 3 }}>
-          Google Developer Student Club NMIMS Shirpur
+          Google Developer Student Club
         </Typography>
       </Toolbar>
     </AppBar>

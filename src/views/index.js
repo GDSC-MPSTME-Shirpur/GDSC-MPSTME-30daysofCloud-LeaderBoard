@@ -112,7 +112,6 @@ const Index = () => {
                 <Tab label="Gold" />
                 <Tab label="Silver" />
                 <Tab label="Bronze" />
-                <Tab label="Unranked" />
               </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
@@ -124,9 +123,6 @@ const Index = () => {
             <TabPanel value={value} index={2}>
               <BronzeDataGrid />
             </TabPanel>
-            <TabPanel value={value} index={3}>
-              <UnrankedDataGrid />
-            </TabPanel>
           </Box>
         </CardContent>
         <CardActions
@@ -136,10 +132,10 @@ const Index = () => {
             margin: "10px",
           }}
         >
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href="https://www.instagram.com/gdsc.mpstmeshirpur/">
             <Instagram />
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href="https://www.linkedin.com/company/gdsc-mpstme-shirpur/">
             <LinkedIn />
           </Button>
         </CardActions>
