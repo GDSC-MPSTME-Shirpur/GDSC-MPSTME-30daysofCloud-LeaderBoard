@@ -15,17 +15,13 @@ const columns = [
   { id: "Enrolment Status", label: "Enrolment Status", minWidth: 100 },
   {
     id: "# of Skill Badges Completed in Track 1",
-    label: "# of Skill Badges Completed in Track 1",
+    label: "Skill Badges Completed in Track 1",
   },
   {
     id: "# of Skill Badges Completed in Track 2",
-    label: "# of Skill Badges Completed in Track 2",
+    label: "Skill Badges Completed in Track 2",
   },
   { id: "Total Quest", label: "Total Quest" },
-  {
-    id: "Google Cloud Skills Boost (previously Qwiklabs) Profile URL",
-    label: "Profile URL",
-  },
 ];
 
 export default function StickyHeadTable() {
@@ -56,8 +52,7 @@ export default function StickyHeadTable() {
           value["Student Name"],
           value["Enrolment Status"],
           value["# of Skill Badges Completed in Track 1"],
-          value["# of Skill Badges Completed in Track 2"],
-          value["Google Cloud Skills Boost (previously Qwiklabs) Profile URL"]
+          value["# of Skill Badges Completed in Track 2"]
         )
       );
     });
@@ -79,7 +74,7 @@ export default function StickyHeadTable() {
           <TableHead>
             <TableRow>
               {columns.map((column) => (
-                <TableCell
+                <TableCell align="center"
                   key={column.id}
                   style={{ fontWeight: "bold", fontSize: "1rem" }}
                 >
@@ -95,14 +90,11 @@ export default function StickyHeadTable() {
                 console.log(row);
                 return (
                   <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
-                    <TableCell>{row[0]}</TableCell>
-                    <TableCell>{row[1]}</TableCell>
-                    <TableCell>{row[2]}</TableCell>
-                    <TableCell>{row[3]}</TableCell>
-                    <TableCell>{row[5]}</TableCell>
-                    <TableCell>
-                      <Button href={row[4]}>View Profile</Button>
-                    </TableCell>
+                    <TableCell align="center">{row[0]}</TableCell>
+                    <TableCell align="center">{row[1]}</TableCell>
+                    <TableCell align="center">{row[2]}</TableCell>
+                    <TableCell align="center">{row[3]}</TableCell>
+                    <TableCell align="center">{row[5]}</TableCell>
                   </TableRow>
                 );
               })}
