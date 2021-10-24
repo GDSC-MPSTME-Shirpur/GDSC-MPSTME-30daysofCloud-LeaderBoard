@@ -1,6 +1,6 @@
 # 30 days of Google Cloud
 
-![Banner]()
+![Banner](https://github.com/nupoorkhatri/GDSC-MPSTME-30daysofCloud-LeaderBoard/blob/changes/30%20Days%20of%20Google%20Cloud%20(Profile)_j6UhPYG%20(1)_2icCnpP.jpg)
 
 About this program 
 
