@@ -4,7 +4,7 @@ import GoldDataGrid from "./goldDataTable";
 import SilverDataGrid from "./silverDataTable";
 import BronzeDataGrid from "./bronzeDataTable";
 import UnrankedDataGrid from "./unrankedDataTable";
-import Footer from "./footer";
+import Footer from "./Footer";
 import image from "../assets/GDSCHeader.JPG";
 import {
   Avatar,
